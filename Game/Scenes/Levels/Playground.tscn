@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cq0avojx4opxo"]
+
+[ext_resource type="PackedScene" uid="uid://drt2fwem4rjfn" path="res://Game/Scenes/Gameplay/Vehicles/VehicleController.tscn" id="1_pg6sv"]
+[ext_resource type="Resource" uid="uid://bt7m77hwcx4p0" path="res://Game/Assets/Resources/Vehicles/Bandit [Vehicle Data].tres" id="2_khbwq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_khbwq"]
+size = Vector3(50, 1, 50)
+
+[node name="Playground" type="Node3D" unique_id=1039383083]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=445380607]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2135844755]
+shape = SubResource("BoxShape3D_khbwq")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1262988683]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 6.1140127)
+
+[node name="VehicleController" parent="." unique_id=575825356 instance=ExtResource("1_pg6sv")]
+_data = ExtResource("2_khbwq")
