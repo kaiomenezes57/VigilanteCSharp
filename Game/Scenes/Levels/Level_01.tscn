@@ -90,7 +90,9 @@ mesh = SubResource("PlaneMesh_pg6sv")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Plane/StaticBody3D" unique_id=2042332268]
 shape = SubResource("ConcavePolygonShape3D_pg6sv")
 
-[node name="PlayerSpawner" type="Node3D" parent="." unique_id=729951831 node_paths=PackedStringArray("_possibleSpawnPositions")]
+[node name="Spawners" type="Node" parent="." unique_id=423495305]
+
+[node name="PlayerSpawner" type="Node3D" parent="Spawners" unique_id=729951831 node_paths=PackedStringArray("_possibleSpawnPositions")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7136827, 0)
 script = ExtResource("2_ol8hd")
 _possibleSpawnPositions = []
