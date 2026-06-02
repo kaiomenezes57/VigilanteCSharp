@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://vsgy7awktft8"]
+
+[ext_resource type="PackedScene" uid="uid://bv2t0csbpofob" path="res://Game/Scenes/Gameplay/Vehicles/BaseVehicle.tscn" id="1_jggss"]
+[ext_resource type="Resource" uid="uid://bt7m77hwcx4p0" path="res://Game/Assets/Resources/Vehicles/Bandit [Vehicle Data].tres" id="2_42w5h"]
+
+[node name="Bandit [Vehicle]" unique_id=637895979 instance=ExtResource("1_jggss")]
+_data = ExtResource("2_42w5h")

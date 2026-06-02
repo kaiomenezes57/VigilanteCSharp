@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://bv2t0csbpofob"]
+
+[ext_resource type="Script" uid="uid://fq82mrbonqok" path="res://Game/Scripts/Gameplay/Vehicle/VehicleController.cs" id="1_517f6"]
+[ext_resource type="PackedScene" uid="uid://sywlgkvcvm1v" path="res://Game/Assets/3D/psx-caprice-hearse/caprice.glb" id="2_0c1iu"]
+[ext_resource type="Script" uid="uid://hbky4rde8nfs" path="res://Game/Scripts/Systems/Combat/HealthComponent.cs" id="3_tvxfr"]
+[ext_resource type="Script" uid="uid://dgj4o8uljswqw" path="res://Game/Scripts/Systems/Combat/DamageReceiverComponent.cs" id="4_40l0y"]
+[ext_resource type="Script" uid="uid://cj5fwdn10gfeh" path="res://Game/Scripts/Systems/Combat/HealReceiverComponent.cs" id="5_d375y"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8mkjg"]
+size = Vector3(4.907959, 1.3000488, 1)
+
+[node name="Base [Vehicle]" type="VehicleBody3D" unique_id=637895979]
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 300.0
+script = ExtResource("1_517f6")
+
+[node name="caprice" parent="." unique_id=645122785 instance=ExtResource("2_0c1iu")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, -0.375, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=983844662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13220215, 0.34387207, 0)
+shape = SubResource("BoxShape3D_8mkjg")
+
+[node name="WheelFL" type="VehicleWheel3D" parent="." unique_id=1190754043]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.299, -0.111, -0.755)
+use_as_steering = true
+wheel_radius = 0.25
+
+[node name="WheelFR" type="VehicleWheel3D" parent="." unique_id=1301520577]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 1.2991035, -0.110575475, 0.7554135)
+use_as_steering = true
+wheel_radius = 0.25
+
+[node name="WheelRL" type="VehicleWheel3D" parent="." unique_id=565646173]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.9779936, -0.111, -0.766)
+use_as_traction = true
+wheel_radius = 0.25
+
+[node name="WheelRR" type="VehicleWheel3D" parent="." unique_id=1444580844]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.978, -0.111, 0.766)
+use_as_traction = true
+wheel_radius = 0.25
+
+[node name="SpringArm3D" type="SpringArm3D" parent="." unique_id=1623721291]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 1.5, 0)
+spring_length = 6.0
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D" unique_id=96504088]
+fov = 85.0
+
+[node name="Health" type="Node" parent="." unique_id=2000410160]
+script = ExtResource("3_tvxfr")
+
+[node name="DamageReceiver" type="Node" parent="." unique_id=1710452012]
+script = ExtResource("4_40l0y")
+
+[node name="HealReceiver" type="Node" parent="." unique_id=554734835]
+script = ExtResource("5_d375y")
