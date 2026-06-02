@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "D:\\Game Dev\\Godot\\VigilanteCSharp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\scene\\scenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\scene\\scenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\vehicledataresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\vehicledataresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\input\\playervehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\input\\playervehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\trigger\\triggerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\trigger\\triggerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\input\\vehiclecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\input\\vehiclecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\trigger\\triggertargettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\trigger\\triggertargettype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\spawners\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\spawners\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\combatprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\combatprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\input\\ivehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\input\\ivehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\damagereceivercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\damagereceivercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\healreceivercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\healreceivercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\ihealable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\ihealable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\combat\\data\\healdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\combat\\data\\healdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\trigger\\triggertargetcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\trigger\\triggertargetcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\trigger\\onoverlaptrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\trigger\\onoverlaptrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\trigger\\actions\\basetriggeraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\trigger\\actions\\basetriggeraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\extensions\\collectionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\extensions\\collectionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehicleDataResource.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleDataResource.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleDataResource.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleDataResource.cs",
-              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleDataResource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T06:15:48.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VehicleController.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Title": "SceneBootstrap.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:58:40.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IHealable.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\IHealable.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\IHealable.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\IHealable.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\IHealable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:51:28.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HealthComponent.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\HealthComponent.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\HealthComponent.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\HealthComponent.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\HealthComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:51:25.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HealReceiverComponent.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\HealReceiverComponent.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\HealReceiverComponent.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\HealReceiverComponent.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\HealReceiverComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:51:23.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DamageReceiverComponent.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\DamageReceiverComponent.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\DamageReceiverComponent.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\DamageReceiverComponent.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\DamageReceiverComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:51:22.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CombatProcessor.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\CombatProcessor.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\CombatProcessor.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\CombatProcessor.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\CombatProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:50:41.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TriggerTargetComponent.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\TriggerTargetComponent.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Trigger\\TriggerTargetComponent.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\TriggerTargetComponent.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Trigger\\TriggerTargetComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:32:01.58Z",
+              "WhenOpened": "2026-06-02T16:55:06.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TriggerTargetType.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\TriggerTargetType.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Trigger\\TriggerTargetType.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\TriggerTargetType.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Trigger\\TriggerTargetType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "VehicleCommand.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:32:00.745Z",
+              "WhenOpened": "2026-06-02T16:54:49.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TriggerData.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\TriggerData.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Trigger\\TriggerData.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\TriggerData.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Trigger\\TriggerData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PlayerVehicleInput.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:31:59.584Z",
+              "WhenOpened": "2026-06-02T16:52:07.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDamageable.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\IDamageable.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\IDamageable.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\IDamageable.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\IDamageable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "CollectionsExtension.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Extensions\\CollectionsExtension.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Extensions\\CollectionsExtension.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Extensions\\CollectionsExtension.cs",
+              "RelativeToolTip": "Game\\Scripts\\Extensions\\CollectionsExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:09:52.393Z",
+              "WhenOpened": "2026-06-02T16:43:37.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OnOverlapTrigger.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\OnOverlapTrigger.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Trigger\\OnOverlapTrigger.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\OnOverlapTrigger.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Trigger\\OnOverlapTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
+              "RelativeToolTip": "Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:31:58.514Z",
+              "WhenOpened": "2026-06-02T16:36:11.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseTriggerAction.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\Actions\\BaseTriggerAction.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Trigger\\Actions\\BaseTriggerAction.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Trigger\\Actions\\BaseTriggerAction.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Trigger\\Actions\\BaseTriggerAction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IVehicleInput.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:31:57.892Z",
+              "WhenOpened": "2026-06-02T16:22:55.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HealData.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\Data\\HealData.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Combat\\Data\\HealData.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Combat\\Data\\HealData.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Combat\\Data\\HealData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T05:08:49.382Z",
+              "WhenOpened": "2026-06-02T15:37:45.157Z",
               "EditorCaption": ""
             }
           ]
