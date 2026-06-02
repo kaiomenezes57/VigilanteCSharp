@@ -1,84 +1,85 @@
+using Game.Gameplay.Vehicle.Inputs;
 using Godot;
-using System.Runtime.CompilerServices;
+using System.Linq;
 
 namespace Game.Gameplay.Vehicle
 {
-    public partial class VehicleController : Node3D
+    public partial class VehicleController : VehicleBody3D
     {
         [Export] private VehicleDataResource _data;
-        private VehicleBody3D _body;
+
+        private IVehicleInput _input;
+        private VehicleWheel3D[] _wheels;
 
         private float _targetSteering;
         private float _throttle;
 
-        public override void _Ready()
+        public void Setup(IVehicleInput input)
         {
-            var vehicleVisual = _data.VehicleVisual.Instantiate();
-            if (vehicleVisual is VehicleBody3D vehicleBody)
-                _body = vehicleBody;
-
-            AddChild(vehicleVisual);
+            _input = input;
+            _wheels = GetChildren()
+               .OfType<VehicleWheel3D>()
+               .ToArray();
         }
 
         public override void _PhysicsProcess(double delta)
         {
+            if (_input == null)
+                return;
+
             HandleInput();
 
-            float speed = _body.LinearVelocity.Length();
+            float speed = LinearVelocity.Length();
 
-            // Reduz a força do motor próximo da velocidade máxima
             float speedFactor = Mathf.Clamp(
                 1f - (speed / _data.MaxSpeed),
                 0f,
                 1f);
 
-            _body.EngineForce = _throttle * _data.EngineForce * speedFactor;
+            EngineForce =
+                _throttle *
+                _data.EngineForce *
+                speedFactor;
 
-            // Direção suavizada
-            _body.Steering = Mathf.Lerp(
-                (float)_body.Steering,
+            Steering = Mathf.Lerp(
+                (float)Steering,
                 _targetSteering,
                 _data.SteeringResponsiveness * (float)delta);
 
-            // Auto-endireitamento apenas no ar
             if (!HasGroundContact())
             {
                 Vector3 correction = Basis.Y.Cross(Vector3.Up);
-                _body.ApplyTorque(-correction * _data.AirStabilizationForce);
+
+                ApplyTorque(
+                    -correction *
+                    _data.AirStabilizationForce);
             }
         }
 
         private void HandleInput()
         {
-            _throttle = Input.GetAxis(
-                "move_backward",
-                "move_forward");
+            var command = _input.GetCommand();
 
-            float steeringInput = Input.GetAxis(
-                "move_right",
-                "move_left");
+            _throttle = command.Throttle;
 
-            _targetSteering =
-                steeringInput * _data.SteeringAngle;
-
-            _body.Brake = Input.IsActionPressed("brake")
-                ? _data.BrakeForce
-                : 0f;
-
-            // Ré mais fraca
             if (_throttle < 0f)
                 _throttle *= _data.ReverseMultiplier;
+
+            _targetSteering =
+                command.Steering *
+                _data.SteeringAngle;
+
+            Brake = command.Brake
+                ? _data.BrakeForce
+                : 0f;
         }
 
         private bool HasGroundContact()
         {
-            foreach (Node child in GetChildren())
+            foreach (var wheel in _wheels)
             {
-                if (child is VehicleWheel3D wheel &&
-                    wheel.IsInContact())
-                {
+                if (wheel.IsInContact())
                     return true;
-                }
             }
 
             return false;
