@@ -9,6 +9,8 @@ namespace Game.Gameplay.Scene
         public override void _Ready()
         {
             InitializeSpawners();
+
+
             GD.Print("[BOOT] The game has been started");
         }
 
