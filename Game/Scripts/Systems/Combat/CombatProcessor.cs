@@ -6,13 +6,13 @@ namespace Game.Systems.Combat
 {
     public static class CombatProcessor
     {
-        public static event Action<IDamageable, Node3D, DamageData> OnDamage;
-        public static event Action<IDamageable, Node3D, DamageData> OnDie;
-        public static event Action<IHealable, Node3D, HealData> OnHeal;
+        public static event Action<IDamageable, Node, DamageData> OnDamage;
+        public static event Action<IDamageable, Node, DamageData> OnDie;
+        public static event Action<IHealable, Node, HealData> OnHeal;
 
         public static void Damage(
-            IDamageable target, 
-            Node3D caller, 
+            IDamageable target,
+            Node caller, 
             DamageData data)
         {
             var onDieCallback =
@@ -24,7 +24,7 @@ namespace Game.Systems.Combat
 
         public static void Heal(
             IHealable target,
-            Node3D caller,
+            Node caller,
             HealData data)
         {
             target.Heal(data);
