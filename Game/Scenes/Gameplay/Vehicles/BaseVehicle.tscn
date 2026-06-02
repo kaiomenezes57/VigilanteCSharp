@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://hbky4rde8nfs" path="res://Game/Scripts/Systems/Combat/HealthComponent.cs" id="3_tvxfr"]
 [ext_resource type="Script" uid="uid://dgj4o8uljswqw" path="res://Game/Scripts/Systems/Combat/DamageReceiverComponent.cs" id="4_40l0y"]
 [ext_resource type="Script" uid="uid://cj5fwdn10gfeh" path="res://Game/Scripts/Systems/Combat/HealReceiverComponent.cs" id="5_d375y"]
+[ext_resource type="Script" uid="uid://mjvfwrfuuggi" path="res://Game/Scripts/Gameplay/Vehicle/Inventory/InventoryComponent.cs" id="6_0c1iu"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8mkjg"]
 size = Vector3(4.907959, 1.3000488, 1)
@@ -57,3 +58,6 @@ script = ExtResource("4_40l0y")
 
 [node name="HealReceiver" type="Node" parent="." unique_id=554734835]
 script = ExtResource("5_d375y")
+
+[node name="Inventory" type="Node" parent="." unique_id=538399879]
+script = ExtResource("6_0c1iu")
