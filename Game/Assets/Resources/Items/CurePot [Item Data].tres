@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="CurePot" format=3 uid="uid://ry4n0s8kqwsj"]
+
+[ext_resource type="Script" uid="uid://bfg82yj416mvw" path="res://Game/Scripts/Gameplay/Vehicle/Inventory/Items/CurePot.cs" id="1_5ce3u"]
+
+[resource]
+script = ExtResource("1_5ce3u")
+_amount = 10.0
+metadata/_custom_type_script = "uid://bfg82yj416mvw"
