@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\Game Dev\\Godot\\VigilanteCSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\scene\\scenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\scene\\scenebootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\inventory\\inventorycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\inventory\\inventorycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\inventory\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\inventory\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\input\\playervehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\input\\playervehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\input\\vehiclecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\input\\vehiclecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\systems\\spawners\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\systems\\spawners\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\gameplay\\vehicle\\input\\ivehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\gameplay\\vehicle\\input\\ivehicleinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|d:\\game dev\\godot\\vigilantecsharp\\game\\scripts\\extensions\\collectionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C08A600F-EA60-434D-AB3E-098F568AA508}|Vigilante 8.csproj|solutionrelative:game\\scripts\\extensions\\collectionsextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,34 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SceneBootstrap.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
-              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Scene\\SceneBootstrap.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:55:06.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VehicleCommand.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
-              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\VehicleCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:54:49.97Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -74,61 +32,35 @@
               "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
               "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
               "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\PlayerVehicleInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:52:07.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CollectionsExtension.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Extensions\\CollectionsExtension.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Extensions\\CollectionsExtension.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Extensions\\CollectionsExtension.cs",
-              "RelativeToolTip": "Game\\Scripts\\Extensions\\CollectionsExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:43:37.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Spawner.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
-              "RelativeToolTip": "Game\\Scripts\\Systems\\Spawners\\Spawner.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:36:11.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IVehicleInput.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
-              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Input\\IVehicleInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T16:22:55.937Z",
+              "WhenOpened": "2026-06-17T17:50:56.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VehicleController.cs",
-              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\VehicleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAZAAAAAAAAAA==",
+              "Title": "Slot.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\Slot.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\Slot.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\Slot.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\Slot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T15:37:45.157Z",
+              "WhenOpened": "2026-06-07T14:54:09.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryComponent.cs",
+              "DocumentMoniker": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\InventoryComponent.cs",
+              "RelativeDocumentMoniker": "Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\InventoryComponent.cs",
+              "ToolTip": "D:\\Game Dev\\Godot\\VigilanteCSharp\\Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\InventoryComponent.cs",
+              "RelativeToolTip": "Game\\Scripts\\Gameplay\\Vehicle\\Inventory\\InventoryComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T14:54:03.776Z",
               "EditorCaption": ""
             }
           ]

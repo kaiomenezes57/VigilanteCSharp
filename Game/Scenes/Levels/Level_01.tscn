@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cq0avojx4opxo"]
 
 [ext_resource type="Script" uid="uid://81efnyfcip7v" path="res://Game/Scripts/Gameplay/Scene/SceneBootstrap.cs" id="1_ioun3"]
+[ext_resource type="Script" uid="uid://b0meav08vxjvh" path="res://Game/Scripts/Systems/Spawners/SpawnersBootstrap.cs" id="2_amwyf"]
 [ext_resource type="Script" uid="uid://b6sls888flid6" path="res://Game/Scripts/Systems/Spawners/PlayerSpawner.cs" id="2_ol8hd"]
 [ext_resource type="PackedScene" uid="uid://vsgy7awktft8" path="res://Game/Scenes/Gameplay/Vehicles/Bandit_Vehicle.tscn" id="3_amwyf"]
 
@@ -37,8 +38,9 @@ material = SubResource("StandardMaterial3D_pg6sv")
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_pg6sv"]
 data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
 
-[node name="Level_01" type="Node3D" unique_id=1039383083]
+[node name="Level_01" type="Node3D" unique_id=1039383083 node_paths=PackedStringArray("_spawners")]
 script = ExtResource("1_ioun3")
+_spawners = NodePath("Spawners")
 
 [node name="Environment" type="Node" parent="." unique_id=1481936674]
 
@@ -90,7 +92,8 @@ mesh = SubResource("PlaneMesh_pg6sv")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Plane/StaticBody3D" unique_id=2042332268]
 shape = SubResource("ConcavePolygonShape3D_pg6sv")
 
-[node name="Spawners" type="Node" parent="." unique_id=423495305]
+[node name="Spawners" type="Node" parent="." unique_id=1182295989]
+script = ExtResource("2_amwyf")
 
 [node name="PlayerSpawner" type="Node3D" parent="Spawners" unique_id=729951831 node_paths=PackedStringArray("_possibleSpawnPositions")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7136827, 0)

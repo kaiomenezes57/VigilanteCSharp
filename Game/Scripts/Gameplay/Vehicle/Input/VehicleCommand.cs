@@ -1,16 +1,9 @@
 namespace Game.Gameplay.Vehicle.Inputs
 {
-    public readonly struct VehicleCommand
+    public readonly struct VehicleCommand(float throttle, float steering, bool brake)
     {
-        public float Throttle { get; }
-        public float Steering { get; }
-        public bool Brake { get; }
-
-        public VehicleCommand(float throttle, float steering, bool brake)
-        {
-            Throttle = throttle;
-            Steering = steering;
-            Brake = brake;
-        }
+        public float Throttle { get; } = throttle;
+        public float Steering { get; } = steering;
+        public bool Brake { get; } = brake;
     }
 }

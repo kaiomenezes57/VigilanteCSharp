@@ -38,11 +38,12 @@ namespace Game.Gameplay.Vehicle.Inventory
             return true;
         }
 
-        public IEnumerable<BaseItemResource> GetAllItems()
+        public IReadOnlyList<BaseItemResource> GetAllItems()
         {
             return _slots
                 .Where(slot => slot.IsUsed)
-                .Select(slot => slot.Item);
+                .Select(slot => slot.Item)
+                .ToList();
         }
     }
 }
