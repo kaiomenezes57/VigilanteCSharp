@@ -1,5 +1,4 @@
 using Game.Systems.Trigger.Actions;
-using System.Linq;
 using Godot;
 using Game.Extensions;
 
@@ -23,15 +22,6 @@ namespace Game.Systems.Trigger
                 return;
 
             var targetComponent = body.GetComponentInChildren<TriggerTargetComponent>();
-
-            GD.Print("Component is null: " + targetComponent == null);
-
-            if (targetComponent == null)
-                return;
-
-            GD.Print("Type: " + targetComponent.Type);
-            GD.Print("Expected type: " + _target);
-
             if (targetComponent == null || targetComponent.Type != _target)
                 return;
             
