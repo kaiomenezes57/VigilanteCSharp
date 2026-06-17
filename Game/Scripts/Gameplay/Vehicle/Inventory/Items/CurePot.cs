@@ -5,6 +5,7 @@ using System.Linq;
 
 namespace Game.Gameplay.Vehicle.Inventory.Items
 {
+    [GlobalClass]
     public sealed partial class CurePot : BaseItemResource
     {
         [Export] private float _amount;

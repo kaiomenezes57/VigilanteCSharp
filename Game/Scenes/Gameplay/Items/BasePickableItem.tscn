@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c2uxpo2lwg7qu"]
+
+[ext_resource type="Script" uid="uid://i8k750pmf2bi" path="res://Game/Scripts/Systems/Trigger/OnOverlapTrigger.cs" id="1_pj3hl"]
+[ext_resource type="Script" uid="uid://bwm8lacf6ccsr" path="res://Game/Scripts/Systems/Trigger/Actions/AddItemToInventory.cs" id="2_8bwv1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_udi81"]
+
+[node name="BasePickableItem" type="Area3D" unique_id=1087139806]
+script = ExtResource("1_pj3hl")
+_target = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1836163180]
+shape = SubResource("BoxShape3D_udi81")
+debug_color = Color(0.8658635, 0.0005789167, 0.86225975, 0.41960785)
+
+[node name="AddToInventoryTriggerAction" type="Node3D" parent="." unique_id=1967836286 node_paths=PackedStringArray("_timer")]
+script = ExtResource("2_8bwv1")
+_timer = NodePath("Timer")
+
+[node name="Timer" type="Timer" parent="AddToInventoryTriggerAction" unique_id=1561697837]
+wait_time = 0.05
+one_shot = true

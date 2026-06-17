@@ -22,10 +22,19 @@ namespace Game.Systems.Trigger
             if ((_triggerOnce && _triggered) || body == null)
                 return;
 
-            if (body.GetComponentInChildren<TriggerTargetComponent>() 
-                is not { Type: var target } || target != _target)
+            var targetComponent = body.GetComponentInChildren<TriggerTargetComponent>();
+
+            GD.Print("Component is null: " + targetComponent == null);
+
+            if (targetComponent == null)
                 return;
 
+            GD.Print("Type: " + targetComponent.Type);
+            GD.Print("Expected type: " + _target);
+
+            if (targetComponent == null || targetComponent.Type != _target)
+                return;
+            
             foreach (var action in this.GetComponentsInChildren<BaseTriggerAction>())
                 action.Trigger(new TriggerData(this, body));
 

@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://fq82mrbonqok" path="res://Game/Scripts/Gameplay/Vehicle/VehicleController.cs" id="1_517f6"]
 [ext_resource type="PackedScene" uid="uid://sywlgkvcvm1v" path="res://Game/Assets/3D/psx-caprice-hearse/caprice.glb" id="2_0c1iu"]
+[ext_resource type="Script" uid="uid://2m6eci2cp576" path="res://Game/Scripts/Systems/Trigger/TriggerTargetComponent.cs" id="3_40l0y"]
 [ext_resource type="Script" uid="uid://hbky4rde8nfs" path="res://Game/Scripts/Systems/Combat/HealthComponent.cs" id="3_tvxfr"]
 [ext_resource type="Script" uid="uid://dgj4o8uljswqw" path="res://Game/Scripts/Systems/Combat/DamageReceiverComponent.cs" id="4_40l0y"]
 [ext_resource type="Script" uid="uid://cj5fwdn10gfeh" path="res://Game/Scripts/Systems/Combat/HealReceiverComponent.cs" id="5_d375y"]
@@ -61,3 +62,7 @@ script = ExtResource("5_d375y")
 
 [node name="Inventory" type="Node" parent="." unique_id=538399879]
 script = ExtResource("6_0c1iu")
+
+[node name="TriggerTarget" type="Node3D" parent="." unique_id=2132420390]
+script = ExtResource("3_40l0y")
+Type = 2
